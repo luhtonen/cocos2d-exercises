@@ -2,14 +2,13 @@ var MyFirstApp = cc.Layer.extend({
 	init : function() {
 		this._super();
 
-		var s = cc.Director.getInstance().getWinSize();
+		var winSize = cc.Director.getInstance().getWinSize();
 
-		var layer1 = cc.LayerColor.create(new cc.Color4B(255, 255, 0, 255),
+		var mainLayer = cc.LayerColor.create(new cc.Color4B(255, 255, 0, 255),
 				600, 600);
-		layer1.setAnchorPoint(new cc.Point(0.5, 0.5));
 
 		var helloLabel = cc.LabelTTF.create("Hello world", "Arial", 30);
-		helloLabel.setPosition(new cc.Point(s.width / 2, s.height / 2));
+		helloLabel.setPosition(new cc.Point(winSize.width / 2, winSize.height / 2));
 		helloLabel.setColor(new cc.Color3B(255, 0, 0));
 		var rotationAmount = 0;
 		var scale = 1;
@@ -23,12 +22,11 @@ var MyFirstApp = cc.Layer.extend({
 				scale = 1;
 		});
 
-		layer1.addChild(helloLabel);
-		this.addChild(layer1);
+		mainLayer.addChild(helloLabel);
+		this.addChild(mainLayer);
 
 		return true;
 	}
-
 });
 
 var MyFirstAppScene = cc.Scene.extend({
