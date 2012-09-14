@@ -7,7 +7,9 @@ var MySecondApp = cc.Layer.extend(
             jetSprite = cc.Sprite.create("./images/Jet.png");
         layer1.setPosition(new cc.Point(0.0,0.0));
         layer1.addChild(jetSprite);
-        jetSprite.setPosition(new cc.Point(0.0,0.0));
+		
+		var size = cc.Director.getInstance().getWinSize();
+        jetSprite.setPosition(new cc.Point(size.width/2,size.height/2));
         
         this.addChild(layer1);
         return true;
