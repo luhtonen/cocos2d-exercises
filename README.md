@@ -18,4 +18,6 @@ cocos2d-html5 exercises
 <dd>Working with audio</dd>
 <dt>MyFifthApp</dt>
 <dd>coming soon...</dd>
+<dt>NEW_COCOS2D-HTML5_APP</dt>
+<dd>HelloWorld template for new cocos2d-html5 applications</dd>
 </dl>
