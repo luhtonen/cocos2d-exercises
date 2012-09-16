@@ -15,7 +15,7 @@ cocos2d-html5 exercises
 <dt>MyThirdApp</dt>
 <dd>User controls.</dd>
 <dt>MyFourthApp</dt>
-<dd>coming soon...</dd>
+<dd>Working with audio</dd>
 <dt>MyFifthApp</dt>
 <dd>coming soon...</dd>
 </dl>
