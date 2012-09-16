@@ -16,7 +16,7 @@ This is HelloWorld template for new cocos2d-html5 application. To use this templ
 <ul>
 * rename NEW_COCOS2D-HTML5_APP.js according you new application name
 * to add more JavaScript scripts add them in the list of addFiles in cocos2d.js file, like following:
-```JavaScript
+```
 appFiles : [ 'NEW_COCOS2D-HTML5_APP.js', 'MyOtherScript.js' ]
 ```
 * edit your application script
