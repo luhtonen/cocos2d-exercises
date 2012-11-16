@@ -20,3 +20,4 @@ This is HelloWorld template for new cocos2d-html5 application. To use this templ
 appFiles : [ 'NEW_COCOS2D-HTML5_APP.js', 'MyOtherScript.js' ]
 ```
 * edit your application script
+* remember to turn off debugging in release version: set COCOS2D_DEBUG:0 in cocos2d.js file
